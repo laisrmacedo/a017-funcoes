@@ -22,9 +22,9 @@ comparar(20,10)
 
 function parOuImpar (numero){
     if(numero%2 ===0){
-        console.log(numero%2 ===0, "o número é par")
+        console.log("o número é par")
     } else {
-        console.log(numero%2 ===0, "o número é ímpar")
+        console.log("o número é ímpar")
     }
 }
 
@@ -36,5 +36,5 @@ function mensagem (texto) {
     console.log(texto.length, texto.toUpperCase())
 }
 
-mensagem("Meu nome é Laís")
+mensagem(prompt("Escreva aqui"))
 
